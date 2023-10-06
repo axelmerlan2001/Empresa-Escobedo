@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background:#FFD792;
+		}
+		fieldset{
+			margin: 0% 15% 5% 15%;
+		}
+		input[type=password]{
+			margin: 0% 3% 3% 3%;
+		}
+		h1{
+			font-family: Elephant;
+			color: #C65314;
+			font-size: 30px;
+		}
+		h2{
+			font-family: Elephant;
+			color: #C65314;
+			font-size: 25px;
+		}
+		legend{
+			font-family: Elephant;
+			color: #C65314;
+			font-size: 20px;
+		}
+        input[type="checkbox"]{
+            margin: 0% 0% 3% 4%;
+        }
+	</style>
+</head>
+<body>
+
+ <form>
+ 	<fieldset>
+      <legend><h1>RELLENA EL SIGUIENTE FORMULARIO:</h1></legend>
+    <center>
+    	<h2>INGRESA TU NOMBRE:</h2>
+    	<input type="text" name="nombre">
+    	<br>
+    	<h2>INGRESA TU CORREO:</h2>
+    	<input type="email" name="correo">
+    	<br>
+    	<h2>INGRESA TU CONTRASEÑA:</h2>
+    	<input type="password" name="contraseña">
+    	<br>
+    </center>
+    </fieldset>
+ </form>
+
+ <form>
+ 	<fieldset>
+ 		<legend><h1>DATOS PERSONALES:</h1></legend>
+ 	<center>
+    	<h2>INGRESA TU EDAD:</h2>
+    	<input type="number" name="edad">
+    	<br>
+    	<h2>INGRESA TU SEXO:</h2>
+    	<input type="radio" name="sexo">MASCULINO
+    	<input type="radio" name="sexo">FEMENINO
+    	<br>
+    	<h2>ESTADO CIVIL:</h2>
+    	<select>
+    		<option disabled selecter>SELECCIONE UNA OPCION</option>
+    		<option>SOLTERO</option>
+    		<option>CASADO</option>
+    		<option>UNION LIBRE</option>
+    		<option>NORMAL</option>
+    	</select>
+    	<h2>HOBBIES:</h2>
+    	<center><table width="70%">
+    		<tr>
+    			<td><center><input type="checkbox" name="hobbie">JUEGOS</center></td>
+    		</tr>
+    		<tr>
+    			<td><center><input type="checkbox" name="hobbie">CORRER</center></td>
+    		</tr>
+    		<tr>
+    			<td><center><input type="checkbox" name="hobbie">NADAR</center></td>
+    		</tr>
+    		<tr>
+    			<td><center><input type="checkbox" name="hobbie">MUSICA</center></td>
+    		</tr>
+    	</table></center>
+
+ 	</center>
+ 	</fieldset>
+ </form>
+
+</body>
+</html>
